@@ -1,0 +1,4 @@
+typed js - typing animation library - https://github.com/mattboldt/typed.js
+
+.firstSection > div -> it will select outer divs present in element with class firstSection
+.firstSection div -> it will select all divs present in element with class firstSection
