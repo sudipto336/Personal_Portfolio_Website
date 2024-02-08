@@ -31,11 +31,25 @@
       <div class="leftSection">
         Hi my name is <span class="purple">Sudipto</span>
         <div>and I am a passionate</div>
-        <div>Web Developer</div>
+        <span id="element"></span>
       </div>
       <div class="rightSection">
         <img src="assets/images/bg.png" alt="" />
       </div>
     </section>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Full Stack Developer.",
+          "Front End Developer.",
+          "Back End Developer.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>
